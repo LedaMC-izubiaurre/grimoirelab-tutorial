@@ -17,6 +17,8 @@ Once you've successfully installed Graal, you can get started real quick with th
 
 **Note:** You can invoke other available backends in a similar way.
 
+**Note:** Graal backends aren't self-contained and rely on third party tools you might need to install separatedly. See its [README.md](https://github.com/chaoss/grimoirelab-graal/blob/master/README.md).
+
 ## Using Graal as a program
 
 - Let's start our analysis with the host repository itself. As you can see the positional parameter is added with the repository url and `git-path` flag is used to define the path where the git repository will be cloned.
